@@ -7,7 +7,7 @@ This is a working ASP.NET demonstration of how to asynchronously (in real-time) 
 
 ## Prerequisites
 
-* IIS must have Windows authentication enabled, and anonymous authenticated disabled. This is because SignalR is used to provide live feedback of the running script - as such, a SignalR group is created using the username associated with each session.
+* IIS must have Windows authentication enabled, and anonymous authenticated disabled. This is because SignalR is used to provide live feedback of the running script - as such, a SignalR group is created using the username associated with each session. If set correctly, you should see your username in the top right of the initial form.
 
 * PowerShell scripts must be non-interactive; there's no means to provide input back to powershell scripts once they're running.
 
