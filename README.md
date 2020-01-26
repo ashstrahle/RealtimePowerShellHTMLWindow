@@ -17,3 +17,7 @@ This is a working ASP.NET demonstration of how to asynchronously (in real-time) 
     - Set-ExecutionPolicy Unrestricted -Scope Process
     
 * Place your PowerShell scripts in ~/Scripts/PowerShell. ASP.NET requires the path to be relative to the project, hence this location. You'll find a cute test.ps1 file in there.
+
+## Authors
+
+* **Ashley Strahle** - [AshStrahle](https://github.com/AshStrahle)
