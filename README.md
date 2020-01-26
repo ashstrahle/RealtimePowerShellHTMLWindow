@@ -1,7 +1,7 @@
 # Real-time PowerShell HTML Window
 Asynchronous PowerShell script output to web page
 
-This is a working ASP.NET demonstration of how to asynchronously (in real-time) execute PowerShell scripts, capturing and writing the Output, Progress, Warning, and Error streams to an HTML results window.
+Useful for automation and user accessibility, this is a working ASP.NET demonstration of how to asynchronously (in real-time) execute PowerShell scripts, capturing and writing the Output, Progress, Warning, and Error streams to an HTML results window.
 
 ![Results1](https://github.com/ashstrahle/RealtimePowerShellHTMLWindow/blob/master/Images/Results1.png)
 
