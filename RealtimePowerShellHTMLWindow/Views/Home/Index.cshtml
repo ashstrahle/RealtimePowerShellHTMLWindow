@@ -1,0 +1,31 @@
+﻿@{
+    ViewBag.Title = "Run PowerShell Script";
+}
+
+<h1>@ViewBag.Title</h1>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="form-horizontal">
+        <br />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            PowerShell script: <input type="text" name="target" id="target" />
+        </div>
+
+        <div class="form-group">
+            <input type="submit" name="submitButton" value="Execute" onclick="ShowResultsWindow()" />
+
+            <script type="text/javascript">
+                ShowResultsWindow = function () {
+                    window.open('/Home/Results', "WindowPopup", 'width=1200px,height=1200px,top=0,left=400');
+                }
+            </script>
+        </div>
+        <div class="form-group">
+            <h6>All PowerShell scripts must be located in Scripts\PowerShell folder</h6>
+        </div>
+    </div>
+}
+
