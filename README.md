@@ -16,7 +16,12 @@ This is a working ASP.NET demonstration of how to asynchronously (in real-time) 
     - Set-ExecutionPolicy Unrestricted -Scope CurrentUser
     - Set-ExecutionPolicy Unrestricted -Scope Process
     
-* Place your PowerShell scripts in ~/Scripts/PowerShell. ASP.NET requires the path to be relative to the project, hence this location. You'll find a cute test.ps1 file in there.
+* Place your PowerShell scripts in **~/Scripts/PowerShell**. ASP.NET requires the path to be relative to the project, hence this location. You'll find a cute test.ps1 file in there.
+
+## Running the tests
+
+Specify **test.ps1** as the script to execute. It provides output to each of the PowerShell streams over 5 iterations, with a sleep-start 1s after each iteration.
+
 
 ## Authors
 
