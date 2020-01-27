@@ -14,9 +14,11 @@ Useful for automation and user accessibility, this is a working ASP.NET demonstr
 * Output must be written using Write-Output, Write-Progress, Write-Warning, or Write-Error only. Output written with Write-Host cannot be captured and hence won't display in the results window.
 
 * Ensure the PowerShell Execution Policy has been sufficiently opened to allow your scripts to run. If in doubt and at own risk, as Administrator run:
-    - Set-ExecutionPolicy Unrestricted -Scope LocalMachine
-    - Set-ExecutionPolicy Unrestricted -Scope CurrentUser
-    - Set-ExecutionPolicy Unrestricted -Scope Process
+```powershell
+    Set-ExecutionPolicy Unrestricted -Scope LocalMachine
+    Set-ExecutionPolicy Unrestricted -Scope CurrentUser
+    Set-ExecutionPolicy Unrestricted -Scope Process
+```
     
 * Place your PowerShell scripts in **~/Scripts/PowerShell**. ASP.NET requires the path to be relative to the project, hence this location. You'll find a cute test.ps1 file in there.
 
