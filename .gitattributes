@@ -62,5 +62,4 @@
 #*.rtf   diff=astextplain
 #*.RTF   diff=astextplain
 
-#RealtimePowerShellHTMLWindow/Scripts/*.js linguist-vendored
 */*/*.js linguist-vendored
