@@ -1,3 +1,5 @@
+## Note: This project is deprecated as it is based on .Net Framework 4.8. See https://github.com/ashstrahle/PowerShellPortal for an updated .Net 6 version of this project.
+
 # Real-time PowerShell HTML Window
 Asynchronous PowerShell script output to web page
 
